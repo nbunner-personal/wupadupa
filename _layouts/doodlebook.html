@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article role="article" class="post">
+
+  <header class="article-header">
+    <h1>Wupadupa Doodle Book {{ page.book }} / Doodle {{ page.ref }}</h1>
+  </header>
+
+  <section class="entry-content clearfix" itemprop="articlebody">
+
+
+	<div id="main_col">	
+		{% assign nextdoodle-ref = page.ref | plus:1 %}
+		{% assign nextdoodle = site.doodlebook | where:"ref", nextdoodle-ref | first %}
+		
+		{% if page.ref != site.doodlebook-total %}
+		<a href="{{ site.doodlebook-base }}/book-{{ nextdoodle.book }}/doodle-{{ nextdoodle.ref }}.html" title="View Next Doodle" class="main_doodle">			
+		{% else %}
+		<a href="{{ site.doodlebook-base }}/book-1/doodle-1.html" title="View Next Doodle" class="main_doodle">
+		{% endif %}
+		<img src="{{ site.doodlebook-images-base }}{{ page.linkurl }}" alt="doodle_thumbnail" />
+		</a>		
+		<div class="doodlebook_info book{{ page.book }}">
+			<p>This Doodle belongs to the book shown below. Click on the doodle to view the next one from this book.</p>			
+		</div>
+
+	</div>
+
+
+
+  </section>
+
+	<aside class="side_col">
+		
+	</aside>
+
+</article>
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+<body class="page {{ page.currentPage }}">
+
+		<div class="main_container">
+			<div class="header">
+				<a href="/index.html" class="header_link"></a>  
+				<p>We are a group of musicans, artists 
+				and filmakers who put on events, 
+				often collaborating on projects.</p>
+
+				<p>Past events have included the string 
+				thing, mail art, phone art, film 
+				nights, sing things and house gigs.</p>
+			</div>	
+			<nav role="navigation" class="nav">
+				{% include top-nav.html %}	
+			</nav>
+			
+
+			<main role="main" class="main_container_inner">
+				
+				{{ content }}
+				
+			</main>
+
+			<footer class="footer" role="contentinfo">
+
+				<nav class="footer_nav">
+					<a href="index.html">Home</a> -
+					<a href="string_thing.html">String Thing</a> - 
+					<a href="sing_thing.html">Sing Thing</a> -
+					<a href="doodlebook/index.html">Doodlebook</a> -		
+					<a href="mail_art.html">Mail Art</a> -
+					<a href="phone_art.html">Phone Art</a> -
+					<a href="artists.html">Artists</a> -
+					<a href="contact.html">Contact Us</a>
+				</nav>
+
+
+				<p class="source-org copyright">&copy; {{ 'now' | date: "%Y" }} - {{ site.description }}</p>
+
+				
+
+			</footer>
+			
+		</div>
+
+
+		
+	</body>
+
+</html>

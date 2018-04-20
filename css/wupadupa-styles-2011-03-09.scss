@@ -1,0 +1,114 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+/* main styles for www.wupadupa.com */
+/* copyright n.bunner 2011 */
+
+/* @group common and main structure */
+body, html, ul, li, dl, dt, dd, form, h1, h2 , h3, h4, h5, p {margin: 0; padding: 0;}
+ul, li, ul li {list-style-type: none;}
+body {background: #c3d5da; color: #333; font-family: "Trebuchet MS", Verdana, Arial; font-size: 100.1%; text-align: center;}
+.main_container {background: #fff; margin: 0 auto; position: relative; width: 960px;}
+.header {background: url(../images/header.jpg) no-repeat 0 0; color: #fff; height: 199px; position: relative; text-align: right;}
+.main_container_inner {min-height: 200px; height: auto !important; height: 200px; margin: 0 30px; overflow: hidden; padding: 20px 0 0; position: relative; text-align: left; width: 900px;} 
+
+.header_link {height: 90px; left: 18px; position: absolute; top: 50px; width: 175px;}
+.header p {font-size: 1em; margin: 0 20px 0 660px; padding-top: 20px;}
+
+.top_nav {margin-left: 15px;}
+.top_nav a {background-position: 50% 100%; background-repeat: no-repeat; color: #45658F; float: left; font-family: 'Denk One', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; margin: 10px; padding: 0 0 107px; width: 135px;}
+.top_nav a.nav_stringthing {background-image: url(../images/nav_stringthing.jpg);}
+.top_nav a.nav_singthing {background-image: url(../images/nav_singthing.jpg);}
+.top_nav a.nav_doodlebook {background-image: url(../images/nav_doodlebook.jpg);}
+.top_nav a.nav_photos {background-image: url(../images/nav_photos.jpg);}
+.top_nav a.nav_mailart {background-image: url(../images/nav_mailart.jpg);}
+.top_nav a.nav_phoneart {background-image: url(../images/nav_phoneart.jpg);}
+
+.main_col {float: left; width: 650px;}
+.side_col {float: right; font-size: 0.8em; padding: 30px 0 0; width: 200px;}
+.lower_col {clear: both; overflow: hidden; padding: 40px 0 0;}
+
+
+h1, h2, h3, #side_col {font-family: 'Denk One', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; font-weight: normal;}
+h1 {font-size: 1.3em;}
+h2 {font-size: 1.1em;}
+h3 {font-size: 1.04em; margin-top: 13px;}
+p {font-size: 0.9em; line-height: 1.4em; margin: 0 0 15px;}
+
+.side_col h3 {font-weight: normal;}
+.side_col li {margin: 0 0 5px;}
+
+a:link, a:visited {color: #2B6485; outline: none; text-decoration: none;}
+a:hover {color: #1C4E6B; text-decoration: underline;}
+a:link img, a:visited img {border: none;}
+
+.main_content p.last_item, .last_item {margin-bottom: 0;}
+
+.header_buttons {position: relative;}
+.header_buttons a {display: block; height: 42px; outline: none; position: absolute; top: 7px; width: 147px;}
+.header_buttons a.nav_home {left: 10px;}
+.header_buttons a.nav_back {left: 246px;}
+.header_buttons a.nav_next {left: 512px;}
+.header_buttons a.nav_email {left: 741px;}
+
+.footer {background: url(../images/footer_doodles.png) no-repeat 100% 0; font-size: 0.8em; margin: 0 20px; padding: 140px 20px 20px 20px; text-align: left;}
+.footer_nav {border-top: 1px solid #cacaca; padding: 10px 0 0;}
+/* @end */
+
+
+
+/* @group Page styles */
+/* blog */
+.blog_container {border-bottom: 1px solid #cacaca; margin: 20px 0 40px; padding-bottom: 40px;}
+.blog_container h3 {font-size: 0.95em;}
+.blog_container p {margin: 0 0 5px 0;}
+.blog_container span.blog_date {color: #7C7A83; display: block; font-size: 0.7em; margin: 0 0 5px; padding: 3px 0 0;}
+
+/* doodlebook */
+body.doodlebook .main_col {width: 720px;}
+body.doodlebook .side_col {width: 100px;}
+
+.doodlebook_cover {background-repeat: no-repeat; background-position: 0 20px; display: block;  float: left; font-family: "Courier New", Courier, mono; height: 215px; margin: 20px 15px 20px 0; width: 200px;}
+.doodlebook_info {background-repeat: no-repeat; background-position: 0 100%; float: right; margin: 20px 0 0; padding: 0 0 180px 0; width: 200px;}
+.book1 {background-image: url(/images/doodlebook/doodlebook-1.jpg);}
+.book2 {background-image: url(/images/doodlebook/doodlebook-2.jpg);}
+.book3 {background-image: url(/images/doodlebook/doodlebook-3.jpg);}
+.book4 {background-image: url(/images/doodlebook/doodlebook-4.jpg);}
+.book5 {background-image: url(/images/doodlebook/doodlebook-5.jpg);}
+.side_col ul.random_doodles {width: 100px;}
+.side_col ul.random_doodles li {margin: 0 0 10px;}
+.main_doodle {float: left;}
+.doodlebook-home-list {
+	li {float: left; margin: 15px;}	
+	a {display: block;}
+}
+
+/* photos */
+body#photos #side_col {text-align: right;}
+.side_col a.random_thumbnails {display: block; margin: 0 0 10px;}
+.lower_col a.random_thumbnails {display: block; float: left; margin: 0 10px 0 0;}
+
+.photo_album_container {margin: 0 0 40px; overflow: hidden;}
+.photo_album_container h3 {font-size: 0.95em; margin: 0 0 5px;}
+.photo_album_container li {float: left; margin: 0 10px 0 0;}
+
+.main_photo {float: left; margin: 0 10px 0 0;}
+.photo_thumbnails li {float: left; height: 100px; margin: 0 5px 5px 0; width: 100px;}
+
+
+/* artists */
+.artist {border-top: 1px solid #E9EBEE; clear: right; overflow: hidden; padding: 30px 0 0;}
+.artist_details {float: left; padding-right: 30px; width: 450px;}
+.artist_details h3 {margin-top: 0;}
+.releases {float: right; width: 405px;}
+p.artist_links {color: #8D9096; font-size: 0.8em;}
+
+.news_item {border-bottom: 1px solid #B0B3B8; overflow: hidden; padding: 15px 0;}
+.news_item h3 {margin-bottom: 0.5em;}
+.news_item li {font-size: 0.9em; padding: 0 0 5px 10px;}
+.news_item ul {margin-bottom: 1.2em;}
+.news_item .side_col {float: right; margin: 0 0 0 20px; width: 300px;}
+/* @end */
+
+
