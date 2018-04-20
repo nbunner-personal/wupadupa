@@ -12,8 +12,14 @@ At every Wupadupa gig the doodlebook is passed around for members of the audienc
 
 To begin choose a book below.
 
-<a href="book-1/doodle-1.html" class="doodlebook_cover book1">Book 1</a>
-<a href="book-2/doodle-1.html" class="doodlebook_cover book2">Book 2</a>
-<a href="book-3/doodle-1.html" class="doodlebook_cover book3">Book 3</a>
-<a href="book-4/doodle-1.html" class="doodlebook_cover book4">Book 4</a>
-<a href="book-5/doodle-1.html" class="doodlebook_cover book5">Book 5</a>
+{% assign book1 = site.doodlebook | where:"book", 1 | first %}
+{% assign book2 = site.doodlebook | where:"book", 2 | first %}
+{% assign book3 = site.doodlebook | where:"book", 3 | first %}
+{% assign book4 = site.doodlebook | where:"book", 4 | first %}
+{% assign book5 = site.doodlebook | where:"book", 5 | first %}
+
+<a href="book-1/doodle-{{ book1.ref }}.html" class="doodlebook_cover book1">Book 1</a>
+<a href="book-2/doodle-{{ book2.ref }}.html" class="doodlebook_cover book2">Book 2</a>
+<a href="book-3/doodle-{{ book3.ref }}.html" class="doodlebook_cover book3">Book 3</a>
+<a href="book-4/doodle-{{ book4.ref }}.html" class="doodlebook_cover book4">Book 4</a>
+<a href="book-5/doodle-{{ book5.ref }}.html" class="doodlebook_cover book5">Book 5</a>
