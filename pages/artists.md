@@ -14,9 +14,9 @@ The following are artists who have released recordings under the Wupadupa label.
         <p>Solo project from Daniel Addison reflecting diverse influences. 
     Xiu Xiu, Baths, Bon Iver, Justin Timberlake, Jeniferever, Owen, Mimas, Tom Waits, Shad, Hauschka, Richard Thompson, Semble, Braids for starters...</p>
         <p class="artist_links">
-            <strong>Bandcamp:</strong>  <a href="http://minorplanet.bandcamp.com">http://minorplanet.bandcamp.com</a><br />
-            <strong>Facebook:</strong> <a href="https://www.facebook.com/MinorPlanet">http://www.facebook.com/MinorPlanet</a><br />
-            <strong>Soundcloud:</strong> <a href="https://soundcloud.com/minorplanet">http://soundcloud.com/minorplanet</a>
+            <strong>Bandcamp:</strong>  <a href="//minorplanet.bandcamp.com">//minorplanet.bandcamp.com</a><br />
+            <strong>Facebook:</strong> <a href="https://www.facebook.com/MinorPlanet">//www.facebook.com/MinorPlanet</a><br />
+            <strong>Soundcloud:</strong> <a href="https://soundcloud.com/minorplanet">//soundcloud.com/minorplanet</a>
         </p>
     </div>
     
@@ -35,10 +35,10 @@ The following are artists who have released recordings under the Wupadupa label.
         <h3>Sugardrum</h3>
         <p>Sugardrum sing and play story telling songs using beautiful vocals, fingerpicking acoustic guitar, cello, glockenspiel and percussion. Influences include Sufjan Stevens, Radiohead, The Boats, Semble.</p>
         <p class="artist_links">
-            <strong>Website:</strong> <a href="http://www.sugardrum.com">http://www.sugardrum.com</a><br />
-            <strong>Bandcamp:</strong>  <a href="http://sugardrum.bandcamp.com">http://sugardrum.bandcamp.com</a><br />
-            <strong>Facebook:</strong> <a href="http://www.facebook.com/pages/sugardrum/289395918859">http://www.facebook.com/pages/sugardrum/289395918859</a>      
-            <strong>Soundcloud:</strong> <a href="http://soundcloud.com/sugardrum">http://soundcloud.com/sugardrum</a>  
+            <strong>Website:</strong> <a href="//www.sugardrum.com">//www.sugardrum.com</a><br />
+            <strong>Bandcamp:</strong>  <a href="//sugardrum.bandcamp.com">//sugardrum.bandcamp.com</a><br />
+            <strong>Facebook:</strong> <a href="//www.facebook.com/pages/sugardrum/289395918859">//www.facebook.com/pages/sugardrum/289395918859</a>      
+            <strong>Soundcloud:</strong> <a href="//soundcloud.com/sugardrum">//soundcloud.com/sugardrum</a>  
         </p>
     </div>
     
@@ -53,12 +53,12 @@ The following are artists who have released recordings under the Wupadupa label.
         <h3>Weston Green</h3>
         <p>Benny, Chris and Dan... but a different Dan to the one mentioned above :)</p>
         <p class="artist_links">            
-            <strong>Bandcamp:</strong>  <a href="http://westongreen.bandcamp.com/">http://westongreen.bandcamp.com/</a><br />
+            <strong>Bandcamp:</strong>  <a href="//westongreen.bandcamp.com/">//westongreen.bandcamp.com/</a><br />
         </p>
     </div>
     
     <div class="releases">
-        <iframe width="300" height="410" style="position: relative; display: block; width: 300px; height: 410px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=615643579/size=grande3/bgcol=FFFFFF/linkcol=4285BB/" allowtransparency="true" frameborder="0"><a href="http://westongreen.bandcamp.com/album/back-to-green">Back to Green by Weston Green</a></iframe>
+        <iframe width="300" height="410" style="position: relative; display: block; width: 300px; height: 410px;" src="//bandcamp.com/EmbeddedPlayer/v=2/album=615643579/size=grande3/bgcol=FFFFFF/linkcol=4285BB/" allowtransparency="true" frameborder="0"><a href="//westongreen.bandcamp.com/album/back-to-green">Back to Green by Weston Green</a></iframe>
     </div>
 </div>
 

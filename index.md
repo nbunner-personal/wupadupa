@@ -14,13 +14,13 @@ Some of the artists still release their music using the Wupadupa name as the nam
 <div class="news_item">
     <h3>New Weston Green album</h3>
     <p>Weston Green have finally released their new album, yay!</p>
-    <iframe width="300" height="410" style="position: relative; display: block; width: 300px; height: 410px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=615643579/size=grande3/bgcol=FFFFFF/linkcol=4285BB/" allowtransparency="true" frameborder="0"><a href="http://westongreen.bandcamp.com/album/back-to-green">Back to Green by Weston Green</a></iframe>
+    <iframe width="300" height="410" style="position: relative; display: block; width: 300px; height: 410px;" src="//bandcamp.com/EmbeddedPlayer/v=2/album=615643579/size=grande3/bgcol=FFFFFF/linkcol=4285BB/" allowtransparency="true" frameborder="0"><a href="//westongreen.bandcamp.com/album/back-to-green">Back to Green by Weston Green</a></iframe>
 </div>
 
 
 <div class="news_item">
     <h3>New Sugardrum video - Bubbleclouds</h3>
-    <iframe width="900" height="675" src="http://www.youtube.com/embed/ijo0I2xD9gM" frameborder="0" allowfullscreen></iframe>
+    <iframe width="900" height="675" src="//www.youtube.com/embed/ijo0I2xD9gM" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br />&nbsp;<br />

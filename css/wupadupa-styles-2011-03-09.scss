@@ -7,14 +7,15 @@
 
 /* @group common and main structure */
 body, html, ul, li, dl, dt, dd, form, h1, h2 , h3, h4, h5, p {margin: 0; padding: 0;}
+html {box-sizing: border-box;}
 ul, li, ul li {list-style-type: none;}
 body {background: #c3d5da; color: #333; font-family: "Trebuchet MS", Verdana, Arial; font-size: 100.1%; text-align: center;}
-.main_container {background: #fff; margin: 0 auto; position: relative; width: 960px;}
+.main_container {background: #fff; margin: 0 auto; max-width: 960px; position: relative; width: 100%;}
 .header {background: url(../images/header.jpg) no-repeat 0 0; color: #fff; height: 199px; position: relative; text-align: right;}
-.main_container_inner {min-height: 200px; height: auto !important; height: 200px; margin: 0 30px; overflow: hidden; padding: 20px 0 0; position: relative; text-align: left; width: 900px;} 
+.main_container_inner {min-height: 200px; height: auto !important; height: 200px; max-width: 900px; overflow: hidden; padding: 20px 30px 0; position: relative; text-align: left; width: 100%;} 
 
 .header_link {height: 90px; left: 18px; position: absolute; top: 50px; width: 175px;}
-.header p {font-size: 1em; margin: 0 20px 0 660px; padding-top: 20px;}
+.header p {clear: right; float: right; font-size: 1em; margin: 0 20px 0 0; padding-top: 20px; width: 275px;}
 
 .top_nav {margin-left: 15px;}
 .top_nav a {background-position: 50% 100%; background-repeat: no-repeat; color: #45658F; float: left; font-family: 'Denk One', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; margin: 10px; padding: 0 0 107px; width: 135px;}
@@ -25,8 +26,8 @@ body {background: #c3d5da; color: #333; font-family: "Trebuchet MS", Verdana, Ar
 .top_nav a.nav_mailart {background-image: url(../images/nav_mailart.jpg);}
 .top_nav a.nav_phoneart {background-image: url(../images/nav_phoneart.jpg);}
 
-.main_col {float: left; width: 650px;}
-.side_col {float: right; font-size: 0.8em; padding: 30px 0 0; width: 200px;}
+.main_col {float: left; max-width: 650px; width: 75%;}
+.side_col {float: right; font-size: 0.8em; max-width: 200px; padding: 30px 0 0; width: 15%;}
 .lower_col {clear: both; overflow: hidden; padding: 40px 0 0;}
 
 
